@@ -57,7 +57,7 @@ accelerator:
 engine:
   merge:
     - include: [ "**" ]
-      exclude: [ "tap/workload.yaml", "demo/**", "src/main/resources/application.yaml", "catalog/*.yaml" ]
+      exclude: [ "tap/workload.yaml", "accelerator-resource.yaml", "demo/**", "src/main/resources/application.yaml", "catalog/*.yaml" ]
     - include: [ "Tiltfile" ]
       chain:
       - type: ReplaceText
